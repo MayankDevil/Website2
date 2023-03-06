@@ -1,0 +1,59 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/index.css
+*/
+main
+{
+    height: auto;
+    display: grid;
+}
+
+/*
+    HOME CSS --------------------------------------------
+*/
+#home
+{
+    background: var(--dark) url('../data/pic/bg1.jpg');
+    background-size:cover;
+    background-blend-mode:screen;
+    text-align: center;
+    min-height: 90vh;
+}
+h1
+{
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-wrap: 5px;
+    font-weight:normal;
+}
+#title
+{
+    margin:15vh 1rem 1rem 2rem;
+    font:normal 3rem 'arial';
+}
+strong
+{
+    display: block;
+    padding: 2rem;
+}
+h2
+{
+    color: var(--dred);
+    text-shadow:  1px 1px 1px var(--dark);
+}
+.btn
+{
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    color:var(--white);
+    background: var(--dred);
+    border-radius: 5px;
+}
+.btn:hover
+{
+    box-shadow: 3px 3px 5px var(--black);
+    transition: all linear 0.5s;
+    background: var(--lred);
+}

@@ -1,0 +1,44 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/contact.css
+*/
+#contact
+{
+    min-height: auto;
+}
+#message
+{
+    padding: 1rem;
+    margin: 3rem auto;
+    width: 70%;
+    background:transparent;
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+.fld2
+{
+    width: 100%;
+    padding: 1rem;
+    font-size: 18px;
+    color:var(--black);
+    border:2px solid var(--dark);
+    border-radius: 10px;
+}
+textarea
+{
+    grid-column:1/-1;
+}
+#message div:last-child
+{
+    grid-column: 1/-1;
+}
+#message .btn
+{
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    /* background:var(--dark); */
+}

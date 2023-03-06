@@ -1,0 +1,60 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/mission.css
+*/
+#mission
+{
+    min-height: auto;
+}
+h4
+{
+    padding: 1rem;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    color:var(--black);
+    border-left: 5vh inset var(--dark);
+    border-right: 5vh inset var(--dark);
+}
+.vission
+{
+    display: flex;
+    margin:10vh auto;
+    width: 80%;
+}
+#logo
+{
+    margin: auto;
+    padding: 2rem;
+    width:300px;
+    height: auto;
+    object-fit:contain;
+}
+.content
+{
+    padding: 1rem; 
+    border-left: 1px solid var(--dark);
+}
+p
+{
+    padding: 1rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: small;
+}
+p::before, p::after
+{
+    content: ' " ';
+    font-size: 2rem;
+}
+.content a:not(.btn)
+{
+    text-decoration: underline;
+}
+.content .btn
+{
+    color:var(--black);
+    background:var(--yellow);
+}

@@ -1,0 +1,196 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/response.css
+*/
+
+/*
+    1200px width device
+*/
+@media (max-width: 1200px)
+{
+}
+/*
+    992px width device
+*/
+@media (max-width: 992px)
+{
+    #header
+    {
+        height: auto;
+    }
+    #menu_btn
+    {
+        display: none;
+    }
+    #menu a
+    {
+        padding: 1rem;
+        text-align: center;
+        border:none;
+        border-top:3px solid transparent;
+    }
+    #message
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 6fr 1fr;
+    }
+    #message > div:nth-child(3)
+    {
+        grid-column: 1/-1;
+    }
+    #links
+    {
+        flex-flow: row wrap;
+    }
+    .anchor
+    {
+        width: 30vw;
+    }
+    .object_section
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/*
+    768px width device
+*/
+@media (max-width: 768px)
+{
+    body
+    {
+        position: relative;
+    }
+    #menu_btn
+    {
+        position: absolute;
+        top:2vh;
+        right: 1rem;
+        text-align: center;
+        display: inline;
+    }
+    #menu
+    {
+        display: none;
+        width: 400px;
+        background:var(--black);
+    }
+    #menu a
+    {
+        width: 100%;
+        padding: 2rem 4rem;
+        text-align: left;
+        border:none;
+        border-left:3px solid transparent;
+    }
+    #menu a:last-child
+    {
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 70%;
+        border-radius: 0;
+        text-align: center;
+    }
+    .nav_open
+    {
+        display: grid;
+        place-content: center;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100vh;
+        background:rgba(0,0,0,0.5);
+    }
+    #header
+    {
+        height: 10vh;
+    }
+    #login_form, #signin_form
+    {
+        margin:2rem auto;
+    }
+    .vission
+    {
+        flex-flow: row wrap-reverse;
+        width: 100%;
+    }
+    #logo
+    {
+        width:200px;
+    }
+    #message
+    {
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 6fr 1fr;
+    }
+    #message > div:nth-child(3)
+    {
+        grid-column: 1/-1;
+    }
+    .anchor
+    {
+        width: 100%;
+    }
+    .object_section
+    {
+        padding: 1rem;
+        grid-template-columns: 100%;
+    }
+}
+/*
+    576px width device
+*/
+@media (max-width: 576px)
+{
+    #menu
+    {
+        width: 80vw;
+    }
+    #login, #login_form, #signin_form
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+    #home .btn
+    {
+        margin:1rem;
+    }
+    .content .btn
+    {
+        margin:1rem auto;
+        padding: 1rem;
+    }
+}
+/*
+    280px width device
+*/
+@media (max-width: 280px)
+{
+    #home .btn
+    {
+        margin-bottom: 5rem;
+    }
+    #second_header
+    {
+        padding: auto 1rem;
+    }
+    #second_header h2
+    {
+        font-size: 18px;
+    }
+    #back_btn
+    {
+        padding: 1rem;
+    }
+    .btn_group
+    {
+        display: grid;   
+    }
+    #login_form .form_btn
+    {
+        width: 100%;
+        margin:1rem;
+    }
+}

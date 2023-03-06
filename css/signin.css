@@ -1,0 +1,118 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/login.css
+*/
+#signin
+{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../data/pic/bg.jpg') no-repeat;
+    background-size: cover;
+}
+/*
+    SIGNIN FORM CSS -----------------------------------
+*/
+.form_container
+{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*
+    LOGIN CSS ----------------------------------------
+*/
+#login_form
+{
+    padding: 1rem;
+    width: 400px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--black);
+}
+#login_form > div
+{
+    margin:2rem 1rem;
+}
+h3
+{
+    padding: 1rem;
+    font-size:2rem;
+    font-weight: normal;
+    color:var(--white);
+}
+#login_form div > div
+{
+    color:var(--light);
+}
+#login_form a
+{
+    display: inline-block;
+    padding: 0.5rem;
+    color: var(--dred);
+}
+.fld
+{
+    padding: 1rem;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color:var(--white);
+    background: transparent;
+    border-bottom: 1px solid var(--yellow);
+}
+.caption
+{
+    margin: auto 1rem;
+    font-size: 2rem;
+    color: var(--lred);
+    background: transparent;
+}
+.cap_lbl
+{
+    font-size: 18px;
+    color: var(--white);
+}
+.btn_group
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_btn
+{
+    margin: 0;
+    border:3px solid var(--dred);
+}
+.form_btn:nth-child(2n)
+{
+    background: transparent;
+}
+.form_btn:nth-child(2n):hover
+{
+    transition: all linear 0.5s;
+    background: var(--lred);
+    border-color: none;
+}
+/*
+    SIGN IN CSS ----------------------------------------
+*/
+#signin_form
+{
+    padding: 1rem;
+    width: 400px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--black);
+}
+#signin_form > div
+{
+    padding: 1rem;
+}
+#signin_form .form_btn
+{
+    width: 100%;
+}

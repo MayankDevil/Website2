@@ -1,0 +1,93 @@
+/*
+    Mayank All Right Reserved
+    Website2 "company"
+    css/header.css
+*/
+/*
+    HEADER CSS --------------------------------------------
+*/
+#header
+{
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--black);
+}
+#brand
+{
+    margin: 0.2rem;
+    width: 50px;
+    height: auto;
+    object-fit:contain;
+}
+
+#menu_btn
+{
+    display: none;
+    width: 50px;
+    height: 50px;
+    color: var(--light);
+    font-size: 2rem;
+}
+#menu_btn:hover
+{
+    color:var(--yellow);
+}
+#menu a
+{
+    display: inline-block;
+    width: 100px;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-top:3px solid transparent;
+    color:var(--light);
+}
+#menu a:hover
+{
+    color:var(--yellow);
+    border-color: var(--dred);
+}
+#menu a:last-child
+{
+    padding: 0.6rem 1rem;
+    background:var(--dred);
+    border: none;
+    border-radius:1rem;
+}
+#menu a:last-child:hover
+{
+    box-shadow: 1px 1px 1px var(--dark);
+    transition: all linear 0.5s;
+    background: var(--lred);
+    color: var(--light);
+}
+/*
+    SECOND HEADER CSS -----------------------------------
+*/
+#second_header
+{
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--black);
+}
+#second_header h2
+{
+    font-weight: normal;
+    color:var(--light);
+}
+#back_btn
+{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color:var(--light);
+}
+#back_btn:hover
+{
+    color:var(--dred);
+}
